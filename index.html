@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="navigation">
+          <div class="logo">
+            <img class="logo-brand" src="assets/images/logo.svg" alt="" />
+          </div>
+          <nav data-visible="false" id="navbar">
+            <ul class="menu">
+              <li>
+                <div class="dropdown">
+                  <a href="#">Features</a>
+                  <span class="arrow-down"> </span>
+                  <!-- menu-dropdown -->
+                  <ul class="dropdown-menu">
+                    <li class="list-dropdown">
+                      <span
+                        ><img
+                          class="dropdown-icon"
+                          src="assets/images/icon-todo.svg"
+                          alt=""
+                      /></span>
+                      <a href="#">Todo List</a>
+                    </li>
+                    <li class="list-dropdown">
+                      <span
+                        ><img
+                          class="dropdown-icon"
+                          src="assets/images/icon-calendar.svg"
+                          alt=""
+                      /></span>
+                      <a href="#">Calender</a>
+                    </li>
+                    <li class="list-dropdown">
+                      <span
+                        ><img
+                          class="dropdown-icon"
+                          src="assets/images/icon-reminders.svg"
+                          alt="" /></span
+                      ><a href="#">Reminders</a>
+                    </li>
+                    <li class="list-dropdown">
+                      <span
+                        ><img
+                          class="dropdown-icon"
+                          src="assets/images/icon-planning.svg"
+                          alt="" /></span
+                      ><a href="#">Planning</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                  <a href="#">Company</a>
+                  <span class="arrow-down"></span>
+                  <!-- menu-dropdown -->
+                  <ul class="dropdown-menu">
+                    <li class="list-dropdown">
+                      <a href="#">History</a>
+                    </li>
+                    <li class="list-dropdown">
+                      <a href="#">Our Team</a>
+                    </li>
+                    <li class="list-dropdown">
+                      <a href="#">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </nav>
+          <div class="btn-navigation">
+            <button type="submit" class="btn btn-login">Login</button>
+            <button type="submit" class="btn btn-register">Register</button>
+          </div>
+          <div
+            class="menu-hamburger"
+            aria-controls="navbar"
+            aria-expanded="false"
+          ></div>
+        </div>
+      </header>
+      <!-- content -->
+      <div class="content">
+        <div class="rows-content">
+          <div class="cols-content">
+            <h1 class="heading-title-desktop">
+              Make <br />
+              remote work
+            </h1>
+            <h1 class="heading-title-mobile">Make remote work</h1>
+            <p class="text">
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <button type="submit" class="btn btn-content">Learn more</button>
+            <div class="brand">
+              <div class="rows-brand">
+                <div class="cols-brand">
+                  <img
+                    class="images-brand"
+                    src="assets/images/client-databiz.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="cols-brand">
+                  <img
+                    class="images-brand"
+                    src="assets/images/client-audiophile.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="cols-brand">
+                  <img
+                    class="images-brand"
+                    src="assets/images/client-meet.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="cols-brand">
+                  <img
+                    class="images-brand"
+                    src="assets/images/client-maker.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cols-content">
+            <img
+              class="hero-images"
+              src="assets/images/image-hero-desktop.png"
+              alt=""
+            />
+            <img
+              class="hero-images"
+              src="assets/images/image-hero-mobile.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

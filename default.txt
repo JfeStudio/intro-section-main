@@ -1,0 +1,33 @@
+const btnAccordion = document.querySelectorAll(".contentBx");
+
+for (let i = 0; i < btnAccordion.length; i++) {
+  btnAccordion[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+  });
+}
+
+
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+
+
+Features
+  Company
+  Careers
+  About
+
+  Login
+  Register
+
+  Make remote work
+
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
+
+  Learn more
